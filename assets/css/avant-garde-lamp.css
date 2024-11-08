@@ -1,0 +1,122 @@
+@import './base.css';
+
+
+.avant-garde-lamp .product-details {
+    display: flex;
+    gap: 42px;
+    padding: 90px 0px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+.product-image img {
+    width: 100%;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+
+.product-info {
+    flex: 1;
+    color: #2d3958;
+}
+
+
+.product-info h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #364f8d;
+}
+
+
+.product-info h2 {
+    font-size: 1.2em;
+    color: #a8a8a8;
+}
+
+
+.product-info .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2d3958;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.product-info .description {
+    font-size: 1.2em;
+    color: #6c7a8c;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.options .colors {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.options label {
+    font-weight: bold;
+    color: #6c7a8c;
+}
+
+
+.options .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+
+.color.green {
+    background-color: green;
+}
+
+
+.color.blue {
+    background-color: blue;
+}
+
+
+.options .amount label {
+    display: block;
+    font-weight: bold;
+    color: #364f8d;
+    margin-bottom: 5px;
+}
+
+
+.options .amount select {
+    width: 50%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #364f8d;
+    border-radius: 5px;
+}
+
+
+.add-to-bag {
+    background-color: #4c3c94;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 31px;
+}
+
+
+.add-to-bag:hover {
+    background-color: #6b54bd;
+}

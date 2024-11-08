@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/OUR-PRODUCTS.css" />
+    <title>products</title>
+</head>
+<body>
+    <!-- start header -->
+    <header class="header">
+        <div class="container">
+
+                <ul class="head">
+                    <li class="Guest">
+                        <a href="#">Sign in / Guest</a>
+                    </li>
+                    <li class="Create-Account">
+                        <a href="#">Create Account</a>
+                    </li>
+                </ul>
+            
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start navbar -->
+    <div class="navbar">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="logo">
+                    <a href="#">C</a>
+                </div>
+
+                <div class="mainNav">
+                    <ul class="navb">
+                        <li class="li-nav-home">
+                            <a href="../index.html" class="home">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="li-nav">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="li-nav">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="li-nav">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="icons">
+                            <i class="fa-solid fa-moon" style="color: rgba(1, 18, 44, 1);"></i>
+                            <i class="fa-solid fa-cart-shopping" style="color: rgba(1, 18, 44, 1);"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <main>
+
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-container">
+                    <div class="filter-item">
+                        <label for="search-product">Search Product</label>
+                        <input type="text" id="search-product" class="search-input">
+                    </div>
+                    <div class="filter-item">
+                        <label for="category">Select Category</label>
+                        <select id="category" class="select-category">
+                            <option value="all">all</option>
+                            <option value="tables">Tables</option>
+                            <option value="chairs">Chairs</option>
+                            <option value="kids">Kids</option>
+                            <option value="sofas">Sofas</option>
+                            <option value="beds">Beds</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="company">Select Company</label>
+                        <select id="company" class="select-category">
+                            <option value="all">all</option>
+                            <option value="modenza">Modenza</option>
+                            <option value="luxora">Luxora</option>
+                            <option value="artifex">Artifex</option>
+                            <option value="comfora">Comfora</option>
+                            <option value="homestead">Homestead</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="sort-by">Sort By</label>
+                        <select id="sort-by" class="select-category">
+                            <option value="az">a-z</option>
+                            <option value="za">z-a</option>
+                            <option value="high">Price High</option>
+                            <option value="low">Price Low</option>
+                        </select>
+                    </div>
+                    <div class="filter-item price-section">
+                        <label for="price-range">Select Price</label>
+                        <input type="range" id="price-range" min="0" max="1000" value="1000" class="price-slider">
+                        <span class="price-value">$1,000.00</span>
+                    </div>
+                    <div class="filter-item">
+                        <label class="free-shipping">
+                            <input type="checkbox" checked> Free Shipping
+                        </label>
+                    </div>
+                    <div class="filter-item-btn">
+                        <button class="search-btn">Search</button>
+                        <button class="reset-btn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="featured-products">
+            <div class="container">
+                <div class="product-cards">
+                    <a href="./avant-garde-lamp.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-943150.webp" alt="Avant-Garde Lamp">
+                        <h3>Avant-Garde Lamp</h3>
+                        <p>$179.99</p>
+                    </a>
+                    <a href="./coffee-table.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-3679601.jpeg" alt="Coffee Table">
+                        <h3>Coffee Table</h3>
+                        <p>$179.99</p>
+                    </a>
+                    <a href="./comfy bed.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-1034584.jpeg" alt="Comfy Bed">
+                        <h3>Comfy Bed</h3>
+                        <p>$129.99</p>
+                    </a>
+                    <a href="./chic chair.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-1.webp" alt="Comfy Bed">
+                        <h3>chic chair</h3>
+                        <p>$129.99</p>
+                    </a>
+                    <a href="./contemporary sofa.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-2.webp" alt="Comfy Bed">
+                        <h3>contemporary sofa</h3>
+                        <p>$129.99</p>
+                    </a>
+                    <a href="./cutting-edge bed.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-3.jpeg" alt="Comfy Bed">
+                        <h3>cutting-edge bed</h3>
+                        <p>$129.99</p>
+                    </a>
+                    <a href="./futuristic shelves.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-4.jpeg" alt="Comfy Bed">
+                        <h3>futuristic shelves</h3>
+                        <p>$129.99</p>
+                    </a>
+                    <a href="./glass table.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-5.jpeg" alt="Comfy Bed">
+                        <h3>glass table</h3>
+                        <p>$129.99</p>
+                    </a>
+                    <a href="./King Bed.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-6.webp" alt="Comfy Bed">
+                        <h3>King Bed</h3>
+                        <p>$129.99</p>
+                    </a>
+                    <a href="./Lounge Chair.html" class="product-card">
+                        <img src="../img/featured-products/pexels-photo-5.webp" alt="Comfy Bed">
+                        <h3>Lounge Chair</h3>
+                        <p>$129.99</p>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="">
+            <div class="pagination">
+                <button class="prev">PREV</button>
+                <button class="page-number active">1</button>
+                <button class="page-number">2</button>
+                <button class="page-number">3</button>
+                <button class="next">NEXT</button>
+            </div>
+        </section>
+           
+    </main>
+</body>
+</html>

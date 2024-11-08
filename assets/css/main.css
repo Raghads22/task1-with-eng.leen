@@ -1,0 +1,139 @@
+@import './base.css';
+
+
+/* **********start section way-people-shop********** */
+
+.way-people-shop{
+    padding: 80px 0px;
+}
+
+
+.text {
+    max-width: 470px;
+}
+ 
+
+.text h1 {
+    font-size: 3.5rem;
+    color: #2d3958;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+  
+
+.text p {
+    font-size: 1.2rem;
+    color: #6c7a8c;
+    margin-bottom: 20px;
+}
+  
+
+.text .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #e5e7eb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+  
+
+.img-container {
+    display: flex;
+    gap: 10px;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: rgba(1, 18, 44, 1);
+}
+  
+
+.image-style {
+    width: 334px;
+    height: 423px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+  
+
+.image-style-right {
+    width: 152px; 
+    height: 423px;
+    object-fit: cover;
+    object-position: left; 
+    overflow: hidden; 
+}
+
+
+/* **********start section featured-products********** */
+
+
+.featured-products {
+    text-align: left;
+    color: #4a4a4a;
+    position: relative;
+}
+
+
+.featured-products h2 {
+    font-size: 1.8em;
+    color: #394c97;
+    display: inline-block;
+    position: relative;
+}
+
+
+.featured-products h2::after {
+    content: "";
+    display: block;
+    width: 1035px; 
+    height: 1px;
+    background-color: #d9d9d9;
+    margin-top: 5px;
+}
+
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 53px 0px;
+}
+
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 32%;
+    text-align: center;
+    transition: transform 0.2s;
+    height: 280px;
+    padding-top: 18px;
+}
+
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.product-card img {
+    width: 87%;
+    border-radius: 8px;
+    height: 70%;
+}
+
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #394c97;
+}
+
+
+.product-card p {
+    font-size: 1em;
+    color: #0b5ac1;
+}

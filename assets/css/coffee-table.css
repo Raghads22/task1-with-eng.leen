@@ -1,0 +1,12 @@
+@import './base.css';
+@import './avant-garde-lamp.css';
+
+
+.color.red {
+    background-color: red;
+}
+
+
+.color.yellow {
+    background-color: yellow;
+}

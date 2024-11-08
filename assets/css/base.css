@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+.container{
+    width: calc(100% - 290px);
+    margin: auto;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;                    
+}
+
+
+/* **********start header********** */
+
+header{
+    background-color: rgba(1, 18, 44, 1);
+}
+
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+
+.Guest,
+.Create-Account{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+/* **********start navbar********** */
+
+.navbar{
+    background-color: #f0f6ff;
+    padding: 7px;
+}
+
+
+.logo{
+    padding: 10px 20px;
+    background-color: hsl(212.31deg 100% 51.57%);
+    border-radius: 13%;
+    font-size: 25px;
+}
+
+
+.navb{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.li-nav-home{
+    padding: 10px;
+    background-color: rgba(1, 18, 44, 1);
+    border-radius: 10%;
+}
+
+
+.li-nav{
+    color: rgba(1, 18, 44, 1);
+}
+
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 22px;
+}
+
